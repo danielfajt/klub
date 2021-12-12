@@ -391,8 +391,7 @@ class Event(models.Model):
         blank=True,
         null=True,
     )
-
-    date_from = models.DateField(
+    date_from = models.DateTimeField(
         verbose_name=_("Date from"),
         null=True,
         blank=True,
